@@ -1,0 +1,66 @@
+{
+  "clazz" : "SimpleContentType",
+  "id" : "9ca5a6bb8243868f42c17ef743f40bb1",
+  "name" : "Binary",
+  "variable" : "Binary",
+  "modDate" : "2024-06-06T22:28:44.000+00:00",
+  "iDate" : "2024-06-06T14:46:20.000+00:00",
+  "host" : "8a7d5e23-da1e-420a-b4f0-471e7da8ea2d",
+  "folder" : "SYSTEM_FOLDER",
+  "siteName" : "default",
+  "folderPath" : "/",
+  "icon" : "event_note",
+  "baseType" : "CONTENT",
+  "fields" : [ {
+    "clazz" : "RowField",
+    "id" : "6b78b6b6e6d0c7394dcce7381ac1aaa8",
+    "modDate" : "2024-06-06T22:28:44.000+00:00",
+    "name" : "fields-0",
+    "fieldType" : "Row",
+    "fieldTypeLabel" : "Row",
+    "iDate" : "2024-06-06T14:46:20.000+00:00",
+    "variable" : "fields0",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ColumnField",
+    "id" : "a492370c70b597504e36b445cc9123a3",
+    "modDate" : "2024-06-06T22:28:44.000+00:00",
+    "name" : "fields-1",
+    "sortOrder" : 1,
+    "fieldType" : "Column",
+    "fieldTypeLabel" : "Column",
+    "iDate" : "2024-06-06T14:46:20.000+00:00",
+    "variable" : "fields1",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "BinaryField",
+    "id" : "e7c6f79f5b913a4a4daa6d9c57e8172c",
+    "modDate" : "2024-06-06T22:28:44.000+00:00",
+    "name" : "Bin",
+    "variable" : "bin",
+    "sortOrder" : 2,
+    "fieldType" : "Binary",
+    "fieldTypeLabel" : "Binary",
+    "iDate" : "2024-06-06T14:46:24.000+00:00",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ImageField",
+    "id" : "99015ca6d7bf5f60c5032c1a12b54f2a",
+    "modDate" : "2024-06-06T22:28:44.000+00:00",
+    "name" : "Img",
+    "variable" : "img",
+    "sortOrder" : 3,
+    "fieldType" : "Image",
+    "fieldTypeLabel" : "Image",
+    "iDate" : "2024-06-06T14:47:00.000+00:00",
+    "dataType" : "TEXT"
+  } ],
+  "metadata" : {
+    "CONTENT_EDITOR2_ENABLED" : false
+  },
+  "workflows" : [ {
+    "id" : "d61a59e1-a49c-46f2-a929-db2b4bfa88b2",
+    "variableName" : "SystemWorkflow"
+  } ],
+  "dotCMSObjectType" : "ContentType"
+}

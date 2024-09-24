@@ -1,0 +1,88 @@
+{
+  "clazz" : "SimpleContentType",
+  "id" : "757cad8d7497fb5707896b33bc2c77b6",
+  "name" : "TopicContent",
+  "variable" : "TopicContent",
+  "modDate" : "2024-05-24T18:02:27.000+00:00",
+  "iDate" : "2024-05-22T13:16:37.000+00:00",
+  "host" : "8a7d5e23-da1e-420a-b4f0-471e7da8ea2d",
+  "folder" : "SYSTEM_FOLDER",
+  "siteName" : "default",
+  "folderPath" : "/",
+  "icon" : "event_note",
+  "baseType" : "CONTENT",
+  "fields" : [ {
+    "clazz" : "RowField",
+    "id" : "83556fa7e9e75967a3094d2d1a440941",
+    "modDate" : "2024-05-24T18:02:27.000+00:00",
+    "name" : "fields-0",
+    "fieldType" : "Row",
+    "fieldTypeLabel" : "Row",
+    "iDate" : "2024-05-22T13:16:37.000+00:00",
+    "variable" : "fields0",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ColumnField",
+    "id" : "bccf8863d1ee0462f06df1124c3f5495",
+    "modDate" : "2024-05-24T18:02:27.000+00:00",
+    "name" : "fields-1",
+    "sortOrder" : 1,
+    "fieldType" : "Column",
+    "fieldTypeLabel" : "Column",
+    "iDate" : "2024-05-22T13:16:37.000+00:00",
+    "variable" : "fields1",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "TextField",
+    "searchable" : true,
+    "unique" : true,
+    "indexed" : true,
+    "listed" : true,
+    "id" : "dcfe1328ce1b051e4a5a5f7a8e723b36",
+    "modDate" : "2024-05-24T18:02:27.000+00:00",
+    "name" : "Slug",
+    "variable" : "slug",
+    "required" : true,
+    "sortOrder" : 2,
+    "fieldType" : "Text",
+    "fieldTypeLabel" : "Text",
+    "iDate" : "2024-05-22T13:16:55.000+00:00",
+    "dataType" : "TEXT"
+  }, {
+    "clazz" : "TextAreaField",
+    "searchable" : true,
+    "indexed" : true,
+    "id" : "3355a646898638e3419225ca5ebfcadf",
+    "modDate" : "2024-05-24T18:02:27.000+00:00",
+    "name" : "Description",
+    "variable" : "description",
+    "required" : true,
+    "sortOrder" : 3,
+    "fieldType" : "Textarea",
+    "fieldTypeLabel" : "Textarea",
+    "iDate" : "2024-05-22T13:17:17.000+00:00",
+    "dataType" : "LONG_TEXT"
+  }, {
+    "clazz" : "JSONField",
+    "searchable" : true,
+    "indexed" : true,
+    "id" : "ed093051420982e0a2c4a026ed45883c",
+    "modDate" : "2024-05-24T18:02:27.000+00:00",
+    "name" : "Taxonomy",
+    "variable" : "taxonomy",
+    "required" : true,
+    "sortOrder" : 4,
+    "fieldType" : "JSON-Field",
+    "fieldTypeLabel" : "JSON Field",
+    "iDate" : "2024-05-22T13:17:28.000+00:00",
+    "dataType" : "LONG_TEXT"
+  } ],
+  "metadata" : {
+    "CONTENT_EDITOR2_ENABLED" : false
+  },
+  "workflows" : [ {
+    "id" : "d61a59e1-a49c-46f2-a929-db2b4bfa88b2",
+    "variableName" : "SystemWorkflow"
+  } ],
+  "dotCMSObjectType" : "ContentType"
+}

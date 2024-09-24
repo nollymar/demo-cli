@@ -1,0 +1,68 @@
+{
+  "clazz" : "SimpleContentType",
+  "id" : "013208f319444e87beafa4b599c8565c",
+  "name" : "test_duplicate_custom_field",
+  "variable" : "TestDuplicateCustomField",
+  "modDate" : "2024-06-06T22:28:42.000+00:00",
+  "iDate" : "2024-06-06T15:43:12.000+00:00",
+  "host" : "8a7d5e23-da1e-420a-b4f0-471e7da8ea2d",
+  "folder" : "SYSTEM_FOLDER",
+  "siteName" : "default",
+  "folderPath" : "/",
+  "icon" : "event_note",
+  "baseType" : "CONTENT",
+  "fields" : [ {
+    "clazz" : "RowField",
+    "id" : "5d5b1df0458530317a8531b685a95afc",
+    "modDate" : "2024-06-06T22:28:41.000+00:00",
+    "name" : "fields-0",
+    "fieldType" : "Row",
+    "fieldTypeLabel" : "Row",
+    "iDate" : "2024-06-06T15:43:12.000+00:00",
+    "variable" : "fields0",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ColumnField",
+    "id" : "0bc57de8f589fe542ff666f11d492219",
+    "modDate" : "2024-06-06T22:28:41.000+00:00",
+    "name" : "fields-1",
+    "sortOrder" : 1,
+    "fieldType" : "Column",
+    "fieldTypeLabel" : "Column",
+    "iDate" : "2024-06-06T15:43:12.000+00:00",
+    "variable" : "fields1",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "TextField",
+    "indexed" : true,
+    "id" : "4962f84b6f9ddae36359556589ac4d54",
+    "modDate" : "2024-06-06T22:28:41.000+00:00",
+    "name" : "originaltest",
+    "variable" : "original",
+    "sortOrder" : 2,
+    "fieldType" : "Text",
+    "fieldTypeLabel" : "Text",
+    "iDate" : "2024-06-06T15:43:28.000+00:00",
+    "dataType" : "TEXT"
+  }, {
+    "clazz" : "CustomField",
+    "id" : "667924dae78b1dbde1d5069d6475bd85",
+    "modDate" : "2024-06-06T22:28:42.000+00:00",
+    "name" : "copy",
+    "variable" : "copy",
+    "sortOrder" : 3,
+    "values" : "#dotParse($this.original)",
+    "fieldType" : "Custom-Field",
+    "fieldTypeLabel" : "Custom Field",
+    "iDate" : "2024-06-06T15:47:34.000+00:00",
+    "dataType" : "LONG_TEXT"
+  } ],
+  "metadata" : {
+    "CONTENT_EDITOR2_ENABLED" : false
+  },
+  "workflows" : [ {
+    "id" : "d61a59e1-a49c-46f2-a929-db2b4bfa88b2",
+    "variableName" : "SystemWorkflow"
+  } ],
+  "dotCMSObjectType" : "ContentType"
+}
